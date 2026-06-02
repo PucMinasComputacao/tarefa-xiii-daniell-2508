@@ -39,9 +39,12 @@
 
 ---
 
+As fotos também estão da pasta images em public!
+
 ## 🖥️ Página Principal (Home)
 
 ![Home](images/home.png)
+
 
 ---
 
