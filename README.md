@@ -1,20 +1,50 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/fLYKC7FM)
-# Trabalho Prático - Semana 13
+# 🎬 CineVerse
 
-Home com cards e página de detalhes com JSON Server 
-Nesta atividade, você vai migrar a estrutura de dados que estava dentro do arquivo JavaScript para um arquivo db.json e utilizar o JSON Server como um “backend” simples para o seu projeto. Para este ambiente local de desenvolvimento, utilizamos além do JSONServer, o Node.js.
-IMPORTANTE: Assim como informado anteriormente, capriche na etapa pois você vai precisar dessa parte para as próximas semanas. 
+**Nome:** Daniell Cardoso  
+**Matrícula:** 917809  
+**Curso:** Engenharia de Software  
+**Projeto:** TP1 Web
 
-## Informações Gerais
+---
 
-- Nome:
-- Matricula:
+## 📁 Estrutura do db.json
 
-## Prints do trabalho
+### Coleções
 
-<<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
+| Coleção | Descrição |
+|---|---|
+| `filmes` | Coleção principal com todos os filmes do catálogo |
+| `categorias` | Lista de categorias disponíveis para os filmes |
+| `avaliacoes` | Avaliações feitas por usuários para cada filme |
+| `favoritos` | Lista de filmes marcados como favoritos |
 
-<<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
+### Exemplo de item (filmes)
 
-<<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
+```json
+{
+  "id": 1,
+  "titulo": "Matrix",
+  "descricaoCurta": "Um hacker descobre que a realidade é uma simulação.",
+  "descricaoCompleta": "Thomas Anderson, um programador que vive uma dupla vida como hacker, descobre que o mundo em que vive é uma simulação chamada Matrix, controlada por máquinas.",
+  "imagem": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+  "categoria": "Ficção Científica",
+  "nota": 8.7,
+  "ano": 1999,
+  "diretor": "Lana e Lilly Wachowski",
+  "duracao": "2h16min",
+  "tags": ["ação", "ficção científica", "cyberpunk", "clássico"],
+  "destaque": true
+}
+```
 
+---
+
+## 🖥️ Página Principal (Home)
+
+![Home](images/home.png)
+
+---
+
+## 🎬 Página de Detalhes
+
+![Detalhes](images/detalhes.png)
